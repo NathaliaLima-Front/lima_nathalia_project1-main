@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+* {
+    font-family: 'Cabin', Arial, Helvetica, sans-serif;
+}
+
 .hidden {
     display: none;
 }
@@ -35,6 +39,45 @@ article:last-child {
     margin-bottom: 0;
 }
 
-img {
+article h2 {
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+article .specialTitle {
+    font-family: 'Kanit', Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #fb7400;
+    text-shadow: 1.3px 1.3px #773600;
+}
+
+article img {
     width: 100%;
+}
+
+article p {
+    padding: 20px;
+    margin: 0;
+    line-height: 1.5em;
+    font-size: 1.1em;
+}
+
+article p #textGreen,
+article p #textRed,
+article p #textOrange {
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+article p #textGreen {
+    color: green;
+}
+
+article p #textRed {
+    color: red;
+}
+
+article p #textOrange {
+    color: orange;
 }
