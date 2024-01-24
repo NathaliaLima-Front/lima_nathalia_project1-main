@@ -3,6 +3,7 @@
 
 * {
     font-family: 'Cabin', Arial, Helvetica, sans-serif;
+    color: #313131;
 }
 
 .hidden {
@@ -30,13 +31,59 @@ body {
 article {
     grid-column: 1/-1;
     margin-bottom: 20px;
-    border: solid 1px #333;
+    border: 2px solid #333;
     background: #efefef;
     border-radius: 10px;
+    letter-spacing: 0.5px;
 }
 
 article:last-child {
     margin-bottom: 0;
+}
+
+article#article-1 {
+    background-color: #cde7aa;
+    border-color: #606f4b;
+}
+
+article#article-2 {
+    background-color: #dae6ff;
+    border-color: #5389eb;
+}
+
+article#article-3 {
+    background-color: #e9e9e9;
+    border-color: #6f6d6d;
+}
+
+article#article-4 {
+    background-color: #a2ced3;
+    border-color: #1e717b;
+}
+
+article#article-5 {
+    background-color: #ffe5da;
+    border-color: #e39b7c;
+}
+
+article#article-6 {
+    background-color: #c6bbff;
+    border-color: #575273;
+}
+
+article#article-7 {
+    background-color: #e7d1cc;
+    border-color: #d98d7c;
+}
+
+article#article-8 {
+    background-color: #d9c7a1;
+    border-color: #906427;
+}
+
+article#article-9 {
+    background-color: #cdeced;
+    border-color: #147073;
 }
 
 article h2 {
